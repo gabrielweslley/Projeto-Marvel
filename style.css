@@ -1,0 +1,77 @@
+body {
+    background-color: #1b1833;
+    font-family: 'Recursive';
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+
+}
+
+.conheca_mais {
+    height: 100vh;
+    background-image: url("https://wallpapercave.com/wp/wp2598659.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     gap: 20px; /*distancia entre os textos */
+    padding: 20px;
+    font-family: "Pacifico";
+    color: #1b1833;
+}
+
+.informacoes h1 {
+    font-size: 36px;
+}
+
+.informacoes p {
+    font-family: "Rubik Bubbles";
+    font-size: 48px;
+}
+
+.informacoes button {
+    font-family: "Pacifico";
+    background-color: #1b1833;
+    color: white;
+    font-size: 24px;
+    border-radius: 15px; /* aredondando a borda */
+    border-bottom: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+
+}
+.informacoes button:hover{
+    transform: scale(1.15);
+}
